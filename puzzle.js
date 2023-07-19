@@ -7,7 +7,7 @@ var movableOrdersModel = [21, 22, 24, 25];
 // 移動回数を管理する変数
 var moveCount = 0;
 
-// Model → View への反映部分を作成する (そのような処理を通称 "コンポーネント" と呼ぶ)
+// Model → View への反映部分を作成する(コンポーネント)
 function component() {
   var views = document.querySelectorAll(".item");
 
@@ -115,7 +115,7 @@ function updatePieceColor() {
   var views = document.querySelectorAll(".item");
 
   for (var index = 0; index < views.length; index = index + 1) {
-    if (ordersModel[index] === index + 1) {
+    if (ordersModel[index] === index + 1 && index !== 24) {
       views[index].classList.add('correct-position');
     } else {
       views[index].classList.remove('correct-position');
