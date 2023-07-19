@@ -1,0 +1,62 @@
+.container {
+    width: 450px;
+    height: 450px;
+    border: 15px solid rgb(0, 128, 255);
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+.item {
+width: 90px;
+height: 90px;
+line-height: 90px;
+border: 2px solid #006eff;
+box-sizing: border-box;
+background-color: rgb(193, 218, 248);
+text-align: center;
+vertical-align: middle;
+font-size: 24px;
+color: navy;
+border-radius: 50%; 
+}
+
+.piece-25 {
+    background-color: white;
+    border: none;
+  }
+
+.item.correct-position {
+border: 2px solid #ff0000;
+background-color: rgb(255, 203, 203);
+}
+  
+  
+  .piece-1  { order: 1;  }
+  .piece-2  { order: 2;  }
+  .piece-3  { order: 3;  }
+  .piece-4  { order: 4;  }
+  .piece-5  { order: 5;  }
+  .piece-6  { order: 6;  }
+  .piece-7  { order: 7;  }
+  .piece-8  { order: 8;  }
+  .piece-9  { order: 9;  }
+  .piece-10 { order: 10; }
+  .piece-11 { order: 11; }
+  .piece-12 { order: 12; }
+  .piece-13 { order: 13; }
+  .piece-14 { order: 14; }
+  .piece-15 { order: 15; }
+  .piece-16 { order: 16; }
+  .piece-17 { order: 17; }
+  .piece-18 { order: 18; }
+  .piece-19 { order: 19; }
+  .piece-20 { order: 20; }
+  .piece-21 { order: 21; }
+  .piece-22 { order: 22; }
+  .piece-23 { order: 23; }
+  .piece-24 { order: 24; }
+  .piece-25 {
+    order: 25;
+    background-color: white;
+    border: none;
+  }
